@@ -1,0 +1,51 @@
+.grid{
+    font-size: 1.4rem;
+    color: #000000;
+    width: 88%;
+    margin: 3.5% 6% 20px 6%;
+}
+
+.asset__grid{
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.618em;
+    width: 100%;
+    border-spacing: 8px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 2px solid #000000;
+    text-align: left;
+    padding: 16px 8px;
+    overflow: hidden;
+}
+
+.hover{
+    transition: background .2s ease-in;
+    cursor: pointer;
+}
+
+.qot{
+    cursor: default;
+}
+
+tr:hover .hover{
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+table a:link, a:visited{
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+}
+
+table tr:hover a{
+    color: #ffffff;
+}
+
+

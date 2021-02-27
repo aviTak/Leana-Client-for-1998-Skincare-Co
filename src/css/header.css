@@ -1,0 +1,41 @@
+.header--name{
+    font-family: Allura;
+    font-size: 3rem;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+    transform: translateY(-50%);
+}
+
+.header__box{
+    height: 80px;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#header--menu, #header--logout{
+    margin: 0 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    cursor: pointer;
+}
+
+#header--menu{
+    display: none;
+    left: 0;
+    transition: all .4s ease-in;
+}
+
+#header--logout{
+    right: 60px;
+    transform: translateY(-50%) translateX(50%);
+    margin: 0;
+}

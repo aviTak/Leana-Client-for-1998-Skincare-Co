@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Quicksand&display=swap');
+
+/*Phone-Portrait*/
+
+@media only screen and (max-width: 599px) {
+  html {
+    font-size: 75%; 
+  }
+  #login button, .login__field input{
+    width: 280px !important;
+  }
+  .login__box{
+    padding: 4% 4% 3% 4% !important;
+  }
+  .header__box{
+    height: 50px !important;
+  }
+  .navbar__photo{
+    width: 140px !important;
+    height: calc(var(--vh, 1vh) * 100 - 50px) !important;
+    transform: translateX(-100%);
+  }
+  #header--menu{
+    margin: 0 70px !important;
+  }
+  #header--logout{
+    right: 30px !important;
+  }
+  .header--svg-1{
+    height: 28px !important;
+    width: 28px !important;
+  }
+  .header--svg-2{
+    height: 20px !important;
+    width: 20px !important;
+  }
+  #header--menu{
+    display: block !important;
+  }
+  .all__box{
+    height: calc(var(--vh, 1vh) * 100 - 50px) !important;
+    width: calc(100vw) !important;
+    width: calc(100vw) !important;
+    left: 0px !important;
+    top: 50px !important;
+  }
+  .home__field input{
+    height: 50px !important;
+    margin-bottom: 28px !important;
+  }
+  #uploader{
+    margin: 38px 0 24px 0 !important;
+    height: 20px !important;
+  }
+  .extra--bar{
+    margin-top: 38px !important;
+  }
+  .back{
+    width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 28px !important;
+    top: 28px !important;
+  }
+  .delete{
+    width: 140px !important;
+    height: 50px !important;
+    margin-bottom: 28px !important;
+    top: 28px !important;
+  }
+  .special{
+    padding-top: 84px !important;
+  }
+  .editor{
+    margin-bottom: 28px !important;
+  }
+  .home__field textarea{
+    margin-bottom: 28px !important;
+  }
+  .submitButton, .search__field input{
+    height: 50px !important;
+    margin-bottom: 28px !important;
+    width: 140px !important;
+  }
+  .search--button{
+    top: 0 !important;
+  }
+  .search__field input{
+    width: calc(88% - 55px - 1.5%) !important;
+  }
+  #home-form{
+    margin-top: 28px !important;
+  }
+  #home__error{
+    text-align: center!important;
+    padding: 0 !important;
+    margin-top: 80px;
+    transform: translateY(0) !important;
+  }
+  .new--set{
+    margin-top: 0px !important;
+  }
+  .navbar__box li{
+    font-size: 1.4rem !important;
+  }
+  .cross{
+    width: 25% !important;
+  }
+  .game__upload{
+    margin-bottom: 40px !important;
+  }
+  .se{
+    height: 15px !important;
+  }
+  .de{
+    height: 20px !important;
+  }
+  td, th{
+    padding: 12px 8px !important; 
+  } 
+  .grid{
+    margin: 7% 6% 20px 6% !important;
+  }
+  .sot{
+    height: 10px !important;
+  }
+  .new__blog{
+    margin: 38px auto 45px auto !important;
+    padding: 12px 5px !important;
+  }
+}
+
+/*Tablet-Portrait*/
+
+@media only screen and (min-width: 600px) and (max-width: 900px) and (min-height: 600px) {
+  html {
+    font-size: 88%; /* 7.68px */
+  }
+  .header__box{
+    height: 60px !important;
+  }
+  .navbar__photo{
+    width: 160px !important;
+    height: calc(var(--vh, 1vh) * 100 - 60px) !important;
+    transform: translateX(-100%);
+  }
+  #header--menu{
+    margin: 0 80px !important;
+  }
+  #header--logout{
+    right: 45px !important;
+  }
+  #header--menu{
+    display: block !important;
+  }
+  .all__box{
+    height: calc(var(--vh, 1vh) * 100 - 60px) !important;
+    width: calc(100vw) !important;
+    left: 0px !important;
+    top: 60px !important;
+  }
+  .home__field input{
+    height: 58px !important;
+    margin-bottom: 35px !important;
+  }
+  #uploader{
+    margin: 46px 0 24px 0 !important;
+    height: 24px !important;
+  }
+  .extra--bar{
+    margin-top: 46px !important;
+  }
+  .back{
+    width: 60px !important;
+    height: 60px !important;
+    margin-bottom: 35px !important;
+    top: 35px !important;
+  }
+  .delete{
+    width: 170px !important;
+    height: 60px !important;
+    margin-bottom: 35px !important;
+    top: 35px !important;
+  }
+  .special{
+    padding-top: 105px !important;
+  }
+  .editor{
+    margin-bottom: 35px !important;
+  }
+  .home__field textarea{
+    margin-bottom: 35px !important;
+  }
+  .submitButton, .search__field input{
+    height: 60px !important;
+    margin-bottom: 35px !important;
+    width: 165px !important;
+  }
+  .search--button{
+    top: 0 !important;
+  }
+  .search__field input{
+    width: calc(88% - 70px - 1.5%) !important;
+  }
+  #home-form{
+    margin-top: 35px !important;
+  }
+  .navbar__box li{
+    font-size: 1.3rem !important;
+  }
+  .game__upload{
+    margin-bottom: 48px !important;
+  }
+  td, th{
+    padding: 14px 8px !important; 
+  } 
+  .sot{
+    height: 13px !important;
+  }
+  .new__blog{
+    margin: 46px auto 58px auto !important;
+    padding: 14px 5px !important;
+  }
+}
+
+/*Phone-Landscape*/
+
+@media only screen and (min-width: 500px) and (max-width: 900px) and (max-height: 600px) {
+  html {
+    font-size: 75%; 
+  }
+  #header--logout{
+    display: block !important;
+  }
+  #login button, .login__field input{
+    width: 280px !important;
+  }
+  .login__box{
+    padding: 4% 4% 3% 4% !important;
+  }
+  .header__box{
+    height: 50px !important;
+  }
+  .navbar__photo{
+    width: 140px !important;
+    height: calc(var(--vh, 1vh) * 100 - 50px) !important;
+    transform: translateX(-100%);
+  }
+  #header--menu{
+    margin: 0 70px !important;
+  }
+  #header--logout{
+    right: 30px !important;
+  }
+  .header--svg-1{
+    height: 28px !important;
+    width: 28px !important;
+  }
+  .header--svg-2{
+    height: 20px !important;
+    width: 20px !important;
+  }
+  #header--menu{
+    display: block !important;
+  }
+  .all__box{
+    height: calc(var(--vh, 1vh) * 100 - 50px) !important;
+    width: calc(100vw) !important;
+    left: 0px !important;
+    top: 50px !important;
+  }
+  .home__field input{
+    height: 50px !important;
+    margin-bottom: 28px !important;
+  }
+  #uploader{
+    margin: 38px 0 24px 0 !important;
+    height: 20px !important;
+  }
+  .extra--bar{
+    margin-top: 38px !important;
+  }
+  .back{
+    width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 28px !important;
+    top: 28px !important;
+  }
+  .delete{
+    width: 140px !important;
+    height: 50px !important;
+    margin-bottom: 28px !important;
+    top: 28px !important;
+  }
+  .special{
+    padding-top: 84px !important;
+  }
+  .editor{
+    margin-bottom: 28px !important;
+  }
+  .home__field textarea{
+    margin-bottom: 28px !important;
+  }
+  .submitButton, .search__field input{
+    height: 50px !important;
+    margin-bottom: 28px !important;
+    width: 140px !important;
+  }
+  .search--button{
+    top: 0 !important;
+  }
+  .search__field input{
+    width: calc(88% - 55px - 1.5%) !important;
+  }
+  #home-form{
+    margin-top: 28px !important;
+  }
+  #home__error{
+    padding-left: 12% !important;
+    margin-top: 27.5px !important;
+  }
+  .navbar__box li{
+    font-size: 1.4rem !important;
+  }
+  .game__upload{
+    margin-bottom: 40px !important;
+  }
+  .se{
+    height: 15px !important;
+  }
+  .de{
+    height: 20px !important;
+  }
+  td, th{
+    padding: 12px 8px !important; 
+  } 
+  .sot{
+    height: 10px !important;
+  }
+  .new__blog{
+    margin: 38px auto 45px auto !important;
+    padding: 12px 5px !important;
+  }
+}
+
+/* Tablet-Landscape*/
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) and (max-height: 900px) {
+  html {
+    font-size: 88%; /* 7.68px */
+  }
+  .header__box{
+    height: 60px !important;
+  }
+  .navbar__photo{
+    width: 160px !important;
+    height: calc(var(--vh, 1vh) * 100 - 60px) !important;
+    transform: translateX(0) !important;
+  }
+  #header--menu, #header--logout{
+    margin: 0 80px !important;
+  }
+  #header--logout{
+    right: -10px !important;
+  }
+  .all__box{
+    height: calc(var(--vh, 1vh) * 100 - 60px) !important;
+    width: calc(100vw - 160px) !important;
+    left: 160px !important;
+    top: 60px !important;
+  }
+  .home__field input{
+    height: 58px !important;
+    margin-bottom: 35px !important;
+  }
+  .back{
+    width: 60px !important;
+    height: 60px !important;
+    margin-bottom: 35px !important;
+    top: 35px !important;
+  }
+  .delete{
+    width: 170px !important;
+    height: 60px !important;
+    margin-bottom: 35px !important;
+    top: 35px !important;
+  }
+  #uploader{
+    margin: 46px 0 24px 0 !important;
+    height: 24px !important;
+  }
+  .extra--bar{
+    margin-top: 46px !important;
+  }
+  .special{
+    padding-top: 105px !important;
+  }
+  .editor{
+    margin-bottom: 35px !important;
+  }
+  .home__field textarea{
+    margin-bottom: 35px !important;
+  }
+  .submitButton, .search__field input{
+    height: 60px !important;
+    margin-bottom: 35px !important;
+    width: 165px !important;
+  }
+  .search--button{
+    top: 0 !important;
+  }
+  .search__field input{
+    width: calc(88% - 70px - 1.5%) !important;
+  }
+  #home-form{
+    margin-top: 28px !important;
+  }
+  .navbar__box li{
+    font-size: 1.3rem !important;
+  }
+  .game__upload{
+    margin-bottom: 48px !important;
+  }
+  td, th{
+    padding: 14px 8px !important; 
+  } 
+  .sot{
+    height: 13px !important;
+  }
+  .new__blog{
+    margin: 46px auto 58px auto !important;
+    padding: 14px 5px !important;
+  }
+}
+
+/*Laptop*/
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+  .navbar__photo{
+    transform: translateX(0) !important;
+  }
+  .all__box::-webkit-scrollbar {
+    width: 18px;
+  }
+}
+
+/* Big Desktop*/
+
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 102.5%;
+  }
+}

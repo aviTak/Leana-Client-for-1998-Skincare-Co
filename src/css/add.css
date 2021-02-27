@@ -1,0 +1,238 @@
+.all__box{
+    height: calc(100vh - 80px);
+    height: calc(var(--vh, 1vh) * 100 - 80px);
+    width: calc(100vw - 200px);
+    left: 200px;
+    top: 80px;
+    position: absolute;
+    overflow: auto;
+    z-index: 99;
+    background: #ffdc9d;
+  }
+  
+  .delete, .back{
+    padding: 0px 15px;
+    height: 65px;
+    width: 200px;
+    font-size: 1.4rem;
+    background: transparent;
+    color: #000000;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-family: Quicksand;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    position: absolute;
+    right: 6%;
+    top: 40px;
+    z-index: 99;
+  }
+  
+  .back{
+    left: 6%;
+    width: 65px;
+    border-radius: 65px;
+    border: 2px solid #000000;
+    font-size: 2rem;
+    transition: all .2s ease-in;
+  }
+
+  .back:hover{
+    color: #ffffff !important;
+  }
+
+  .delete:hover{
+    background: transparent !important;
+  }
+
+.delete::after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    right: 0;
+    top: 50%;
+    height: 1.5px;
+    display: block;
+    margin-top: 0%;
+    background: #000000;
+    transition: width .4s ease;
+    transform: translateY(-50%);
+}
+
+.delete:hover:after{
+    width: 100%;
+    left: 0;
+}
+  
+  .special{
+    padding-top: 120px;
+  }
+  
+  .set{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #home__error{
+    margin: 30px 0;
+    color: #000000;
+    font-size: 1.3rem;
+    transform: translateY(-50%);
+    text-align: left;
+    padding-left: 18%;
+  }
+  
+  /* width */
+  .all__box::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  .all__box::-webkit-scrollbar-track {
+    background-image: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+   
+  /* Handle */
+  .all__box::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* Handle on hover */
+  .all__box::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/background.jpg');
+  }
+  
+  .home__field input, .home__field textarea{
+    height: 62px;
+    width: 88%;
+    font-size: 1.4rem;
+    padding: 0 1%;
+    font-family: Quicksand;
+    background: #ffdc9d;
+    font-weight: 200;
+    color: #000000;
+    outline: 0;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #000000;
+  }
+  
+  .home__field textarea{
+    height: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 1.608em;
+    resize: vertical;
+    min-height: 200px;
+    overflow-y: auto;
+  }
+
+  /* width */
+.home__field textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.home__field textarea::-webkit-scrollbar-track {
+  background: #ffdc9d;
+}
+ 
+/* Handle */
+.home__field textarea::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+  .fresh{
+    margin-bottom: 12px !important;
+  }
+
+  .editor{
+    width: 88%;
+    font-size: 1.4rem;
+    margin-left: 6%;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    outline: 0;
+  }
+  
+  #home-form{
+  text-align: center;
+  margin-top: 40px;
+  }
+  
+  .submitButton{
+    padding: 0px 15px;
+    height: 65px;
+    width: 200px;
+    font-size: 1.4rem;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-family: Quicksand;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    /*
+    position: absolute;
+    right: 6%;
+    */
+
+    float: right;
+    margin-right: 6%;
+    z-index: 99;
+  }
+  
+  .back:hover{
+    background-color: #000000;
+  }
+  
+  #home-form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 1; /* Firefox */
+    color: #636363;
+  }
+  
+  #home-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #636363;
+  }
+  
+  #home-form ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #636363;
+  }
+  
+  /* Removes the clear button from date inputs */
+  input[type="date"]::-webkit-clear-button {
+    display: none;
+  }
+  
+  /* Removes the spin button */
+  input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+  }
+  

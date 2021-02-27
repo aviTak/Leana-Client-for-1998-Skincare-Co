@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "skincareco1998-admin",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+html {
+  font-size: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: Quicksand;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  padding: 0; 
+  background-color: #ffdc9d;
+  color: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+
+.main__align{
+  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  height: calc(var(--vh, 1vh) * 100);
+  overflow: hidden;
+}
+
+.main__center{
+  font-family: Allura;
+  position: relative;
+  text-align: center;
+  top: 47%;
+  transform: translateY(-50%);
+  font-size: 5rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main__hide{
+  display: none;
+}

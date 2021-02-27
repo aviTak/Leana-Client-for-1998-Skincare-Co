@@ -1,0 +1,22 @@
+.new__blog{
+    margin: 60px auto 75px auto;
+    color: #ffffff;
+    text-align: center;
+    width: 88%;
+    padding: 18px 5px;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: 1.6rem;
+}
+
+.blog__left{
+    position: absolute;
+    left: 2%;
+    font-size: 2.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+

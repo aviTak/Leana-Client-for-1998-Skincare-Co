@@ -1,0 +1,102 @@
+.heading__primary{
+    font-family: Allura;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #ffffff;
+}
+
+.heading__secondary{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+#login{
+    text-align: center;
+}
+
+#login__error{
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1.02rem;
+}
+
+.login__field input{
+    height: 48px;
+    width: 300px;
+    font-size: 1.4rem;
+    padding: 0 15px;
+    font-family: Quicksand;
+    font-weight: 200;
+    background-color: transparent;
+    color: #ffffff;
+    outline: 0;
+    border: 2px dotted #ffffff;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}
+
+#login button{
+    padding: 0px 15px;
+    height: 48px;
+    width: 300px;
+    font-size: 1.4rem;
+    background-color: rgba(255, 255, 255, .6);
+    color: #000000;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-family: Quicksand;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    cursor: pointer;
+    margin-top: 0%;
+}
+
+#login button:hover{
+    background-color: rgba(255, 255, 255, .8);
+}
+
+#login ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #d8d8d8;
+    opacity: 1; /* Firefox */
+  }
+  
+ #login  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #d8d8d8;
+ }
+  
+  #login ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #d8d8d8;
+  }
+
+  .login__box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 0px solid #000000;
+    border-radius: 10px;
+    padding: 3% 2% 2% 2%;
+    background-color: rgba(0,0,0,.8);
+    box-shadow: 4px 4px 20px 2px #272626;
+  }
+
+#password{
+    -webkit-text-security: circle;
+}
+
+.login__back{
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+
+
