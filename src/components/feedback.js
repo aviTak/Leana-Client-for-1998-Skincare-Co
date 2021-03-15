@@ -264,7 +264,7 @@ class Feedback extends React.Component {
     handleScroll(){
 
         let e = document.getElementById('testScroll');
-        if(e.scrollTop + e.offsetHeight >= e.scrollHeight - 100){
+        if(Math.ceil(e.scrollTop + e.offsetHeight) >= Math.floor(e.scrollHeight - 100)){
 
             if(this.state.block)
                 return;
